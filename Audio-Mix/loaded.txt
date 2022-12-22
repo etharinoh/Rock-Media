@@ -1,0 +1,67 @@
+PipeWire 'pipewire-0' [0.3.47, ehall@Mediabox-dev69, cookie:4163685690]
+ └─ Clients:
+        31. WirePlumber                         [0.3.47, ehall@Mediabox-dev69, pid:2407]
+        32. WirePlumber [export]                [0.3.47, ehall@Mediabox-dev69, pid:2407]
+        34. spotify                             [0.3.47, ehall@Mediabox-dev69, pid:13070]
+        35. pipewire-pulse                      [0.3.47, ehall@Mediabox-dev69, pid:2408]
+        45. spotify                             [0.3.47, ehall@Mediabox-dev69, pid:13070]
+        46. spotify                             [0.3.47, ehall@Mediabox-dev69, pid:13070]
+        51. GNOME Shell Volume Control          [0.3.47, ehall@Mediabox-dev69, pid:2241]
+        52. xdg-desktop-portal                  [0.3.47, ehall@Mediabox-dev69, pid:3032]
+        53. GNOME Volume Control Media Keys     [0.3.47, ehall@Mediabox-dev69, pid:2520]
+        54. Firefox                             [0.3.47, ehall@Mediabox-dev69, pid:2976]
+        55. Google Chrome input                 [0.3.47, ehall@Mediabox-dev69, pid:5313]
+        59. Firefox                             [0.3.47, ehall@Mediabox-dev69, pid:2976]
+        60. speech-dispatcher-dummy             [0.3.47, ehall@Mediabox-dev69, pid:3773]
+        65. spotify                             [0.3.47, ehall@Mediabox-dev69, pid:13070]
+        66. speech-dispatcher-espeak-ng         [0.3.47, ehall@Mediabox-dev69, pid:3776]
+        70. spotify                             [0.3.47, ehall@Mediabox-dev69, pid:13070]
+        76. spotify                             [0.3.47, ehall@Mediabox-dev69, pid:13070]
+        77. Mutter                              [0.3.47, ehall@Mediabox-dev69, pid:2241]
+        79. wpctl                               [0.3.47, ehall@Mediabox-dev69, pid:22060]
+
+Audio
+ ├─ Devices:
+ │      40. GK107 HDMI Audio Controller         [alsa]
+ │      41. Built-in Audio                      [alsa]
+ │  
+ ├─ Sinks:
+ │      43. Built-in Audio Digital Stereo (IEC958) [vol: 0.74]
+ │  *   74. GK107 HDMI Audio Controller Digital Stereo (HDMI 3) [vol: 1.00]
+ │  
+ ├─ Sink endpoints:
+ │  
+ ├─ Sources:
+ │  
+ ├─ Source endpoints:
+ │  
+ └─ Streams:
+        61. speech-dispatcher-dummy                                     
+             62. output_FL       > HDA NVidia:playback_FL
+             63. output_FR       > HDA NVidia:playback_FR
+        67. speech-dispatcher-espeak-ng                                 
+             69. output_FL       > HDA NVidia:playback_FL
+             71. output_FR       > HDA NVidia:playback_FR
+        72. spotify                                                     
+             80. output_FR       > HDA NVidia:playback_FR
+             82. output_FL       > HDA NVidia:playback_FL
+        86. spotify                                                     
+             89. output_FR       > HDA NVidia:playback_FR
+             90. output_FL       > HDA NVidia:playback_FL
+
+Video
+ ├─ Devices:
+ │  
+ ├─ Sinks:
+ │  
+ ├─ Sink endpoints:
+ │  
+ ├─ Sources:
+ │  
+ ├─ Source endpoints:
+ │  
+ └─ Streams:
+
+Settings
+ └─ Default Configured Node Names:
+         0. Audio/Sink    alsa_output.pci-0000_01_00.1.hdmi-stereo-extra2

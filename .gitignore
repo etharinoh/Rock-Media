@@ -1,0 +1,10 @@
+# Audio Mixer
+env
+
+#GroggyRock
+node_modules
+package-lock.json
+
+# Media Load
+pyenv
+credentials.json
